@@ -888,7 +888,7 @@ footer .copyright {
         text-align: start;
     }
 
-    /* single product section  */
+    /* single product section (sproduct.html)  */
 
     #prodetails{
         display: flex;
@@ -925,7 +925,6 @@ footer .copyright {
     }
 
     .addcart{
-        
         width: 50%;
         display: inline;
     }
