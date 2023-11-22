@@ -1,0 +1,41 @@
+camera
+
+product 1
+
+Canon EOS 3000D 18MP Digital SLR Camera (Black) with 18-55mm is II Lens, 16GB Card and Carry Case
+₹35,990
+18-megapixel APS-C-size CMOS sensor and DIGIC 4+ image processor;9-point AF with 1 centre cross-type AF point
+Standard ISO 100 - 6400 (expandable to 12800);Wi-Fi supported
+18.0 megapixels;Canon EF lenses (including EF-S lenses) compaitable.
+CMOS sensor;Recording format : Design rule for Camera File System (DCF) 2.0; JPEG, RAW (14-bit Canon original);Auto Lighting Optimizer
+Wireless Communication Technology: Registered Web Services; Compatible Mountings: Canon Ef-Scanon Ef
+
+product 2
+
+Sony Alpha ILCE 6100 24.2 MP Mirrorless Digital SLR Camera Body only (APS-C Sensor, Fast Auto Focus, Real-time Eye AF, Real-time Tracking, 4K Vlogging Camera, Tiltable LCD, Black)
+ ₹56,989
+Real time eye AF for still + Animal Eye AF;Real time tracking
+World fastest 0.02 Sec AF speed with 425 phase detection and contrast points;24.2MP, EXMOR CMOS sensor with outstanding light sensitivity
+11 FPS continuous shooting with AF/AE;180 degree tilt able touch LCD screen
+ISO sensitivity up to 102400;High resolution, sensitivity and colour reproduction capability;Smooth and stable AF;Country of Origin: China
+Compatible Mountings: Sony E
+
+product 3
+
+Sony Alpha ILCE-6100Y 24.2 MP Mirrorless Digital SLR Camera with 16-50 mm and 55-210 mm Zoom Lenses (APS-C Sensor, Fast Auto Focus,Real-time Eye AF,Real-time Tracking,Vlogging & Tiltable Screen),Black
+₹78,989
+Real time eye AF for still + Animal Eye AF;Real time tracking
+World fastest 0.02 Sec AF speed with 425 phase detection and contrast points;24.2MP, EXMOR CMOS sensor with outstanding light sensitivity
+11 FPS continuous shooting with AF/AE;180 degree tilt able touch LCD screen
+ISO sensitivity up to 102400;High resolution, sensitivity and colour reproduction capability;Smooth and stable AF;Country of Origin: China
+Compatible Mountings: Sony E
+
+product 4
+
+Sony Alpha ILCE-6100Y 24.2 MP Mirrorless Digital SLR Camera with 16-50 mm and 55-210 mm Zoom Lenses (APS-C Sensor, Fast Auto Focus,Real-time Eye AF,Real-time Tracking,Vlogging & Tiltable Screen),Black
+₹78,989
+Real time eye AF for still + Animal Eye AF;Real time tracking
+World fastest 0.02 Sec AF speed with 425 phase detection and contrast points;24.2MP, EXMOR CMOS sensor with outstanding light sensitivity
+11 FPS continuous shooting with AF/AE;180 degree tilt able touch LCD screen
+ISO sensitivity up to 102400;High resolution, sensitivity and colour reproduction capability;Smooth and stable AF;Country of Origin: China
+Compatible Mountings: Sony E

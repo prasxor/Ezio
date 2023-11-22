@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/style.css">
+    <title>Ezio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img style="height: 4rem;" src="/Assests/Images/logo/logo_black.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="/index.html">Home</a></li>
+                <li><a class="active" href="shop.html">shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">contact us</a></li>
+                <li><a id="lg-bag" href="cart.html"><i style="margin-right:2px ;"
+                            class="fa-solid fa-cart-shopping"></i></i>Cart</a>
+                </li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i style="margin-right:2px ;" class="fa-solid fa-cart-shopping"></i></i></a>
+            <i id="bar" class="fa-solid fa-ellipsis-vertical"></i>
+
+        </div>
+    </section>
+
+    <!-- <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img class="big_img" src="/Assests/pre-img/products/f1.jpg" width="100%" id="mainim" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="/Assests/pre-img/products/f1.jpg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="/Assests/pre-img/products/f3.jpg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="/Assests/pre-img/products/f4.jpg" class="small-img" width="100%" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="/Assests/pre-img/products/f5.jpg" class="small-img" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details section-p1">
+            <h6>Home/ T-shirts</h6>
+            <h4 style="font-size: 2rem;">Men's Fashion T shirt</h4>
+            <h2>&#8377; 799</h2>
+            <div id="size">
+                <h4 class="section-p1" style="margin-left: 5px;">Select size</h4>
+                <div class="size_chart">
+                    <input type="radio" name="size" value="small" id="size_small" style="margin-right: 2px;">
+                    &nbsp; <label for="size_small">S</label>&nbsp;&nbsp;
+                    <input type="radio" name="size" value="medium" id="size_medium" style="margin-right: 2px;">
+                    &nbsp; <label for="size_medium">M</label>&nbsp;&nbsp;
+                    <input type="radio" name="size" value="large" id="size_L" style="margin-right: 2px;">
+                    &nbsp;<label for="size_L">L</label>&nbsp;&nbsp;
+                    <input type="radio" name="size" value="extra_large" id="size_X" style="margin-right: 2px;">
+                    &nbsp; <label for="size_X">X</label>
+                </div>
+            </div>
+            <h4>Qty</h4>
+            <input type="number" value="1" class="qty" style="margin-bottom: 12px;">
+            <div class="buttons">
+            <button class="normal addcart">Add to Cart</button>
+            <button class="normal buynow">Buy Now</button>
+        </div>
+            <h4>Product Details</h4>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore repudiandae labore molestias.
+                Laudantium, id minus. In ut earum minus accusamus sapiente laborum deserunt reprehenderit repudiandae,
+                unde non? Odit incidunt quisquam animi.
+            </span>
+        </div>
+    </section> -->
+
+    <div class="card-wrapper">
+        <div class="card">
+            <!-- card left -->
+            <div class="product-imgs">
+                <div class="img-display">
+                    <div class="img-showcase">
+                        <img src="/Assests/Images/products/clothes/women wear/product1/img1.avif" alt="shirt image">
+                        <img src="/Assests/Images/products/clothes/women wear/product1/img2.avif" alt="shirt image">
+                        <img src="/Assests/Images/products/clothes/women wear/product1/img3.avif" alt="shirt image">
+                        <img src="/Assests/Images/products/clothes/women wear/product1/img4.avif" alt="shirt image">
+                    </div>
+                </div>
+                <div class="img-select">
+                    <div class="img-item">
+                        <a href="#" data-id="1">
+                            <img src="/Assests/Images/products/clothes/women wear/product1/img1.avif" alt="shirt image">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="2">
+                            <img src="/Assests/Images/products/clothes/women wear/product1/img2.avif" alt="shirt image">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="3">
+                            <img src="/Assests/Images/products/clothes/women wear/product1/img3.avif" alt="shirt image">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="4">
+                            <img src="/Assests/Images/products/clothes/women wear/product1/img4.avif" alt="shirt image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card right -->
+            <div class="product-content">
+                <h2 class="product-title">
+                    Shibori Dyed Regular Kurta with Trousers & Dupatta</h2>
+                <a href="#" class="product-link">
+                    KALINI</a>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>4.5(6,738)</span>
+                </div>
+
+                <div class="product-price">
+                    <p class="last-price">Old Price: <span>₹2,299.00</span></p>
+                    <p class="new-price">New Price: <span>₹912.00</span></p>
+                </div>
+
+                <div class="product-detail">
+                    <h2>about this item: </h2>
+                    <p>100% Original Products <br>
+                        Pay on delivery <br>might be available <br>
+                        Easy 14 days returns and exchanges <br>
+                        Try & Buy might be available</p>
+                    <!-- <p>Roadster pvt.ltd</p> -->
+                    <ul>
+                        <li>Color: <span>Green</span></li>
+                        <li>Available: <span>in stock</span></li>
+                        <li>Category: <span>Shirt</span></li>
+                        <li>Shipping Area: <span>All over the world</span></li>
+                        <li>Shipping Fee: <span>Free</span></li>
+                    </ul>
+                </div>
+
+                <div class="purchase-info">
+                    <input type="number" min="0" value="1"> <br>
+                    <button type="button" class="normal">
+                        Add to Cart
+                    </button>
+                    <button type="button" class="normal">Compare</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section style="margin-top: 5%;" id="product1" class="section section-p1">
+        <h2>Styling ideas</h2>
+        <p>Products related to this item</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="/Assests/Images/products/clothes/women wear/product2/img1.webp" alt="">
+                <div class="des">
+                    <span>KALINI</span>
+                    <h5>Bandhani Printed Regular</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹850</h4>
+                </div>
+                <a href="#"><i class="fal fa-regular fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/Assests/Images/products/clothes/women wear/product1/img3.avif" alt="">
+                <div class="des">
+                    <span>SINGNI</span>
+                    <h5>Women Purple Ethnic</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹912</h4>
+                </div>
+                <a href="#"><i class="fal fa-regular fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/Assests/Images/products/clothes/women wear/product3/img1.avif" alt="">
+                <div class="des">
+                    <span>Anouk</span>
+                    <h5>Ethnic Motifs Woven Design</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>&#8377; 527</h4>
+                </div>
+                <a href="#"><i class="fal fa-regular fa-heart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/Assests/Images/products/clothes/women wear/product3/img5.avif" alt="">
+                <div class="des">
+                    <span>SIRIL</span>
+                    <h5>Green Floral Art Silk Khadi Saree</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹488
+                    </h4>
+                </div>
+                <a href="#"><i class="fal fa-regular fa-heart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>Special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="/Assests/Images/logo/logo_blue.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Not available right now</p>
+            <p><strong>Phone:</strong> +91 8801999823</p>
+            <p><strong>Hours:</strong> 10:00 - 10:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-threads"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="/Assests/pre-img/pay/app.jpg" alt="">
+                <img src="/Assests/pre-img/pay/play.jpg" alt="">
+                <p>Secured Payment Gateways</p>
+            </div>
+            <img src="/Assests/pre-img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p> Ezio Pvt. Ltd. © 2023</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script src="/Assests/js/sproduct.js"></script>
+    <script>
+        const imgs = document.querySelectorAll('.img-select a');
+        const imgBtns = [...imgs];
+        let imgId = 1;
+
+        imgBtns.forEach((imgItem) => {
+            imgItem.addEventListener('click', (event) => {
+                event.preventDefault();
+                imgId = imgItem.dataset.id;
+                slideImage();
+            });
+        });
+
+        function slideImage() {
+            const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+            document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+        }
+
+        window.addEventListener('resize', slideImage);
+    </script>
+</body>
+
+</html>

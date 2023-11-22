@@ -496,7 +496,7 @@ button:active {
 #newsletter p {
     font-size: 14px;
     font-weight: 600;
-    color: #818ea0;
+    color: #fff;
 }
 
 #newsletter p span {
@@ -545,6 +545,10 @@ footer .col {
 
 footer .logo {
     margin-bottom: 30px;
+}
+
+.col img{
+    width: 150px;
 }
 
 footer h4 {
