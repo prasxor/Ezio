@@ -99,7 +99,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #FFDFDF;
+    /* background: #FFDFDF; */
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     height: 70px;
     z-index: 1;
